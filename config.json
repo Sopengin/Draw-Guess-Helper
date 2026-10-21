@@ -1,0 +1,38 @@
+{
+  "runtime_dir": "runtime",
+  "poll_interval_seconds": 0.2,
+  "search": {
+    "provider": "bing",
+    "api_key": "",
+    "cx": "",
+    "num_results": 6
+  },
+  "translate": {
+    "enabled": false
+  },
+  "preview": {
+    "enabled": true,
+    "port": 8787,
+    "num_candidates": 4
+  },
+  "draw": {
+    "max_dim": 512,
+    "canny_low": 60,
+    "canny_high": 160,
+    "approx_eps": 1.5,
+    "min_area": 20.0,
+    "min_points": 3,
+    "width": 4,
+    "color": [0, 0, 0],
+    "use_color": true,
+    "color_offset_px": 5.0,
+    "color_light_threshold": 215,
+    "fill_enabled": true,
+    "fill_colors": 8,
+    "fill_min_area": 80.0,
+    "fill_max_regions": 16,
+    "color_dark_threshold": 45,
+    "outline_color": [20, 20, 20],
+    "animate_speed_ms": 0
+  }
+}

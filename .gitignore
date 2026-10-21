@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Build artifacts
+plugin/**/bin/
+plugin/**/obj/
+build/
+
+# Runtime handshake files (generated at run time)
+runtime/word.txt
+runtime/strokes.json
+runtime/strokes.json.tmp
+runtime/candidates.json
+runtime/choice.txt
+runtime/preview/
+
+# Editor / OS
+.vs/
+.idea/
+*.user
+Thumbs.db
